@@ -3,6 +3,16 @@
 	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
+	"Modules": [
+		{
+			"Name": "VRTemplateKychris",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "OpenXR",
@@ -47,7 +57,8 @@
 			"Enabled": true,
 			"SupportedTargetPlatforms": [
 				"Win64"
-			]
+			],
+			"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/3d7bfe39-cdd8-4410-b61d-aadc9285c167"
 		}
 	],
 	"TargetPlatforms": [
